@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="按品牌、粘度与规格查阅汽油机油，进入产品页核对出处。">
+<title>油品库 · 油册</title>
+
+<link rel="stylesheet" href="./styles.css">
+
+</head>
+<body data-root="./">
+<header class="masthead">
+  <a class="wordmark" href="./index.html">油册<span>润滑油参数志</span></a>
+  <nav>
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html" aria-current="page">油品库</a>
+      <a href="./compare.html">对照</a>
+      <a href="./method.html">数据方法</a>
+      <a href="./about.html">关于</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <p class="kicker">油品库</p>
+  <h1>汽油机油</h1>
+  <p class="lede">默认展示中国市场条目。每张卡片进入产品页，查看完整规格、典型值与出处。</p>
+  <div class="filterbar">
+    <label class="grow">搜索<input id="fQ" type="search" placeholder="名称、品牌或规格"></label>
+    <label>品牌<select id="fBrand"></select></label>
+    <label>粘度<select id="fSae"></select></label>
+    <label>API<select id="fApi"></select></label>
+    <label>ACEA<select id="fAcea"></select></label>
+    <label>ILSAC<select id="fIlsac"></select></label>
+    <label class="check"><input id="fChina" type="checkbox" checked> 只看中国市场</label>
+    <button type="button" class="btn ghost" id="clearFilters">清除筛选</button>
+  </div>
+  <p class="result-line" id="resultCount"></p>
+  <div class="card-grid" id="catalogGrid"></div>
+</main>
+
+<aside class="compare-dock" id="compareDock"></aside>
+<footer class="site-foot">
+  <div class="foot-inner">
+    <strong>油册</strong> · 油二代 K 少
+    <nav>
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">油品库</a>
+      <a href="./compare.html">对照</a>
+      <a href="./method.html">数据方法</a>
+      <a href="./about.html">关于</a>
+    </nav>
+    <p>参数来自品牌公开的产品数据表。表中理化数字多为典型值，不是保证值。参数高低不等于好坏，选油以车辆使用手册为准。本站不打分、不排名、不提供购买链接。</p>
+    <p class="local-note">独立非官方预览。</p>
+  </div>
+</footer>
+<script src="./data.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

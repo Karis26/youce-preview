@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="说明油册如何收录与核对我公开产品数据表中的参数。">
+<title>数据方法 · 油册</title>
+
+<link rel="stylesheet" href="./styles.css">
+
+</head>
+<body data-root="./">
+<header class="masthead">
+  <a class="wordmark" href="./index.html">油册<span>润滑油参数志</span></a>
+  <nav>
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">油品库</a>
+      <a href="./compare.html">对照</a>
+      <a href="./method.html" aria-current="page">数据方法</a>
+      <a href="./about.html">关于</a>
+  </nav>
+</header>
+
+<main class="wrap wrap-read">
+  <article class="prose">
+    <p class="kicker">数据方法</p>
+    <h1>数字从哪里来，怎样核对。</h1>
+    <p class="lede">权威不来自印章，而来自每一条数字都能回到公开的产品数据表，并说清有没有对照过原文。</p>
+
+    <h2>只采用公开的产品数据表</h2>
+    <p>油册只收录各品牌公开发布的产品数据表（PDS / TDS）上的数值与规格。不编造数字，不编造认证，也不为没有中文名称的条目自行翻译中文名。</p>
+    <p>表中的理化数字多为典型值，不是保证值，也不是用油建议。粘度、HTHS 或其他指标的高低，不等于好坏。为车辆选油，以车辆使用手册和主机厂要求为准。</p>
+
+    <h2>两种空值，绝不混用</h2>
+    <p><strong>厂商未公布</strong>：在该份产品数据表的典型值或规格章节中，没有写出这一项。</p>
+    <p><strong>提取未识别，待人工</strong>：数据表里可能写了，但自动摘录没有站稳，不能当作已经读出的值。这种情况不会被写成「厂商未公布」。</p>
+    <p>试验方法号（例如 ASTM D445、D92）用来说明测量方法，不会被当成典型值本身。</p>
+
+    <h2>规格怎么记录</h2>
+    <p>API、ACEA、ILSAC、JASO 按数据表原文摘录。ILSAC 保留字母后缀（如 GF-6A、GF-7A）。若官方文本只写 GF-6，本站按原文保留，不补 A 或 B。</p>
+    <p>主机厂要求分成两栏：<strong>认证</strong>与<strong>推荐或满足</strong>。筛选与对照不以「满足」代替「认证」。</p>
+
+    <h2>已经核对过什么</h2>
+    <p>截至 2026 年 11 月 23 日，已有 33 种油品的典型值对照过官方产品数据表原文。这些条目在产品页上标明「已对照原文」。</p>
+    <p>其余条目标明「尚未人工抽检」。它们的数字仍然来自官方产品数据表的摘录，但还没有完成人工对照。尚未开展新一轮不少于 50 种油品的人工核对。</p>
+
+    <h2>本志目前的收录范围</h2>
+    <p>目前汽油机油库可查阅 469 种，其中默认展示中国市场 378 种。力魔、嘉实多以及部分 Motul 条目来自非中国市场的数据表，已在页面上注明「配方可能不同」。</p>
+    <p>在美孚中国公开目录的 483 种中，已整理 178 种。其余仍在补录，未进入本库的不计入可查阅种数。</p>
+    <p>本站不收录未公开发布的内部资料，也不把目录里尚未整理完成的条目算作可查阅产品。</p>
+  </article>
+</main>
+
+<aside class="compare-dock" id="compareDock"></aside>
+<footer class="site-foot">
+  <div class="foot-inner">
+    <strong>油册</strong> · 油二代 K 少
+    <nav>
+      <a href="./index.html">首页</a>
+      <a href="./catalog.html">油品库</a>
+      <a href="./compare.html">对照</a>
+      <a href="./method.html">数据方法</a>
+      <a href="./about.html">关于</a>
+    </nav>
+    <p>参数来自品牌公开的产品数据表。表中理化数字多为典型值，不是保证值。参数高低不等于好坏，选油以车辆使用手册为准。本站不打分、不排名、不提供购买链接。</p>
+    <p class="local-note">独立非官方预览。</p>
+  </div>
+</footer>
+<script src="./data.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
